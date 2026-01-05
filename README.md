@@ -263,7 +263,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👤 Author
 
 **Chintan Shah**  
-Independent Researcher, Mumbai, India  
+University of Mumbai, Mumbai, India
 📧 chintan@wohlig.com  
 🐙 GitHub: [@wohlig](https://github.com/wohlig)
 
