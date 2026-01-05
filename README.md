@@ -33,7 +33,7 @@ Where the "dark matter" contribution arises from **rotational kinetic energy of 
 ## Citation
 
 If you use this code, please cite:
-> Shah, C. (2026). Galaxy Rotation Curves from Superfluid Vacuum Theory: A Dark Matter-Free Explanation. *arXiv preprint*.
+> Shah, C. (2026). Galaxy Rotation Curves from Superfluid Vacuum Theory: A Dark Matter-Free Explanation.
 
 ## References
 
