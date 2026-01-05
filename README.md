@@ -2,8 +2,17 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18150850.svg)](https://doi.org/10.5281/zenodo.18150850)
 
 **A dark matter-free explanation for galaxy rotation curves based on quantum vacuum dynamics**
+
+## 📄 Paper
+
+This repository accompanies the research paper:
+
+> **Galaxy Rotation Curves from Superfluid Vacuum Theory: A Dark Matter-Free Explanation**  
+> Shah, C. (2026)  
+> 🔗 **DOI:** [10.5281/zenodo.18150850](https://doi.org/10.5281/zenodo.18150850)
 
 ## Overview
 
@@ -15,28 +24,3 @@ This repository implements the Superfluid Vacuum Theory (SVT) model for fitting 
 - **Only 2 free parameters** — same complexity as ΛCDM
 
 ## The SVT Velocity Formula
-```
-V_SVT(r) = V_∞ · √ln(1 + r/rₖ) · [ln(1 + Mₓ/Mₓ)]^0.25
-```
-
-Where the "dark matter" contribution arises from **rotational kinetic energy of quantized vacuum vortices** — not invisible particles.
-
-## Physical Basis
-
-| Aspect | SVT | ΛCDM (NFW) |
-|--------|-----|------------|
-| Dark matter source | Vacuum vortex energy | Unknown particles |
-| New particles required | None | Yes (undetected) |
-| BTFR explanation | Natural (mass factor) | Coincidental |
-| Core-cusp problem | Naturally cored | Cuspy (problematic) |
-
-## Citation
-
-If you use this code, please cite:
-> Shah, C. (2026). Galaxy Rotation Curves from Superfluid Vacuum Theory: A Dark Matter-Free Explanation.
-
-## References
-
-- SPARC Database: [Lelli, McGaugh & Schombert (2016)](https://astroweb.case.edu/SPARC/)
-- Logarithmic Quantum Mechanics: Białynicki-Birula & Mycielski (1976)
-- Superfluid Vacuum Theory: Volovik (2003), Zloshchastiev (2011)
