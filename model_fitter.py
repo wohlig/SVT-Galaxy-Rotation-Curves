@@ -65,7 +65,7 @@ def V_svt(r, V_infty, r_c, M_bary):
         array_like: Vacuum contribution to rotation velocity (km/s)
     """
     M_crit = 1.0e6   # Critical mass scale (M_sun)
-    R_norm = 50.0    # Normalization radius (kpc)
+    M_crit = 1.0e6   # Critical mass scale (M_sun)
     
     # Convert r to array if scalar
     r = np.atleast_1d(r)
@@ -82,10 +82,6 @@ def V_svt(r, V_infty, r_c, M_bary):
     arg = 1.0 + r_safe / r_c
     spatial = np.sqrt(np.maximum(np.log(arg), 1e-10))
     
-    # Normalization factor (ensures V → V_∞ · mass_factor at r = R_norm)
-    norm_arg = 1.0 + R_norm / r_c
-    norm = np.sqrt(np.log(norm_arg))
-    
     # Mass-dependent factor for BTFR scaling
     # γ = 0.25 gives v⁴ ∝ M (Baryonic Tully-Fisher Relation)
     if M_bary <= 0:
@@ -94,7 +90,7 @@ def V_svt(r, V_infty, r_c, M_bary):
     mass_arg = 1.0 + M_bary / M_crit
     mass_factor = np.power(np.log(mass_arg), 0.25)
     
-    return V_infty * (spatial / norm) * mass_factor
+    return V_infty * spatial * mass_factor
 
 # --- Data Loading ---
 
