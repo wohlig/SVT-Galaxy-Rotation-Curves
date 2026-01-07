@@ -62,17 +62,6 @@ Which simplifies to:
 
 $$v(R) = \sqrt{v_N^2 + \frac{b_0}{m}\left[\chi + \frac{4k_2R^2 + 2k_1R}{k_2R^2 + k_1R + 1}\right] + \tilde{a}_1 R - \tilde{a}_2 R^2}$$
 
-### Fitting Parameters
-
-| Parameter | Units | Meaning |
-|-----------|-------|---------|
-| $b_0/m$ | km²/s² | Logarithmic coupling (main SVT parameter) |
-| $\chi$ | — | Power degree for inner divergence |
-| $k_1$ | kpc⁻¹ | Linear polynomial coefficient |
-| $k_2$ | kpc⁻² | Quadratic polynomial coefficient |
-| $\tilde{a}_1$ | m/s² | Rindler (linear) acceleration |
-| $\tilde{a}_2$ | s⁻² | de Sitter (cosmological) constant |
-
 ---
 
 ## 📊 Key Results
@@ -88,50 +77,25 @@ Tested against **175 galaxies** from the SPARC database:
 | **Good fits (χ²ᵥ < 2)** | **55.8%** | 41.1% |
 | **Head-to-head wins** | **56.4%** | 43.6% |
 
-### Paper's THINGS Results (Table I)
-
-Best-fit parameters from the original paper (15 THINGS galaxies):
-
-| Galaxy | b₀/m (km²/s²) | χ | k₁ (kpc⁻¹) | k₂ (kpc⁻²) |
-|--------|--------------|---|-----------|-----------|
-| DDO 154 | 21.4 | 0 | 0 | 0.233 |
-| NGC 925 | 3262 | 0.012 | 0 | 0.00174 |
-| NGC 2403 | 111.5 | 0 | 0.171 | 0 |
-| NGC 2841 | 1442 | 0.050 | 0 | 0.089 |
-| NGC 3198 | 68.2 | 0 | 0 | 0.017 |
-| NGC 7331 | 3112 | 0 | 0 | 0.0015 |
-
-**Key Finding:** The logarithmic coupling √(b₀/m) ≈ average FRC velocity, confirming the logarithmic term is responsible for flat rotation curves.
-
 ### Visual Results
 
-![Model Comparison](/Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/final_showdown.png)
+### Model Comparison
+![Model Comparison](final_showdown.png)
 
-![SVT Parameter Distributions](/Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/svt_parameter_universality.png)
+### SVT Parameter Distributions
+![SVT Parameter Distributions](svt_parameter_universality.png)
 
 ---
 
 ## 🏆 Winners Circle: Where Log-SVT Outperforms ΛCDM
 
-Based on the datasets analyzed, there are clear instances where the Log-SVT model provides a significantly better fit than the NFW (ΛCDM) model. In statistical modeling, a lower $\chi^2_\nu$ indicates a better fit. Below are the top 5 cases where Log-SVT wins by a significant margin.
-
-````carousel
-![IC2574 Rotation Curve](/Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/IC2574_fit.png)
-<!-- slide -->
-![NGC3109 Rotation Curve](/Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/NGC3109_fit.png)
-<!-- slide -->
-![DDO154 Rotation Curve](/Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/DDO154_fit.png)
-<!-- slide -->
-![D631-7 Rotation Curve](/Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/D631-7_fit.png)
-<!-- slide -->
-![NGC0055 Rotation Curve](/Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/NGC0055_fit.png)
-````
+Below are the top 5 cases where Log-SVT wins by a significant margin.
 
 ### Analysis of the Top Performers
 
 #### 1. IC2574 (The Clear Winner)
 
-![IC2574 Rotation Curve](/Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/IC2574_fit.png)
+![IC2574 Rotation Curve](galaxy_fits/IC2574_fit.png)
 
 The most dramatic example in the dataset. The NFW profile fails significantly, while SVT provides an excellent fit.
 - **$\chi^2_{NFW}$:** 42.68
@@ -141,7 +105,7 @@ The most dramatic example in the dataset. The NFW profile fails significantly, w
 
 #### 2. NGC3109 (The "Perfect" Fit)
 
-![NGC3109 Rotation Curve](/Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/NGC3109_fit.png)
+![NGC3109 Rotation Curve](galaxy_fits/NGC3109_fit.png)
 
 The NFW fit is poor, but the SVT fit is exceptionally precise.
 - **$\chi^2_{NFW}$:** 11.11
@@ -151,7 +115,7 @@ The NFW fit is poor, but the SVT fit is exceptionally precise.
 
 #### 3. DDO154 (Significant Recovery)
 
-![DDO154 Rotation Curve](/Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/DDO154_fit.png)
+![DDO154 Rotation Curve](galaxy_fits/DDO154_fit.png)
 
 A gas-rich dwarf galaxy often used as a benchmark in dark matter studies.
 - **$\chi^2_{NFW}$:** 16.67
@@ -161,7 +125,7 @@ A gas-rich dwarf galaxy often used as a benchmark in dark matter studies.
 
 #### 4. D631-7
 
-![D631-7 Rotation Curve](/Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/D631-7_fit.png)
+![D631-7 Rotation Curve](galaxy_fits/D631-7_fit.png)
 
 A strong technical win where NFW is clearly disfavored.
 - **$\chi^2_{NFW}$:** 10.15
@@ -171,7 +135,7 @@ A strong technical win where NFW is clearly disfavored.
 
 #### 5. NGC0055
 
-![NGC0055 Rotation Curve](/Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/NGC0055_fit.png)
+![NGC0055 Rotation Curve](galaxy_fits/NGC0055_fit.png)
 
 SVT resolves the poor NFW fit nicely.
 - **$\chi^2_{NFW}$:** 6.07
@@ -249,47 +213,6 @@ This will:
 2. Fit both NFW (ΛCDM) and Log-SVT models
 3. Generate comparison plots in `galaxy_fits/`
 4. Output statistics to `galaxy_chi2_comparison.csv`
-
-### Log-SVT Velocity Calculation
-
-```python
-import numpy as np
-
-def V_log_svt(r, b0_m, chi, k1, k2, a1_tilde, a2_tilde):
-    """
-    Log-SVT velocity squared from Zloshchastiev's theory.
-    
-    Parameters:
-        r        : Radius array (kpc)
-        b0_m     : Logarithmic coupling (km²/s²)
-        chi      : Power degree (dimensionless)
-        k1       : Linear coefficient (kpc⁻¹)
-        k2       : Quadratic coefficient (kpc⁻²)
-        a1_tilde : Rindler term ((km/s)²/kpc)
-        a2_tilde : de Sitter term ((km/s)²/kpc²)
-    """
-    P = k2 * r**2 + k1 * r + 1.0
-    log_term = b0_m * (chi + (4*k2*r**2 + 2*k1*r) / P)
-    return log_term + a1_tilde * r - a2_tilde * r**2
-
-# Example
-r = np.linspace(0.1, 30, 100)
-v_bary = 50 * np.sqrt(r / 5)  # example baryonic
-v_sq_svt = V_log_svt(r, b0_m=100, chi=0, k1=0.1, k2=0.01, 
-                      a1_tilde=0, a2_tilde=1e-35)
-v_total = np.sqrt(v_bary**2 + v_sq_svt)
-```
-
----
-
-## 🔮 Predictions
-
-The Log-SVT framework predicts:
-
-1. **No dark matter particles:** Direct detection experiments will continue yielding null results.
-2. **Universal vacuum parameters:** b₀/m and k₂ should show systematic trends across galaxy types.
-3. **Multi-scale gravity:** Different gravitational regimes dominate at different scales.
-4. **Cosmological connection:** The de Sitter term links galactic dynamics to cosmological expansion.
 
 ---
 
