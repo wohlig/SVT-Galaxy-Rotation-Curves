@@ -105,9 +105,9 @@ Best-fit parameters from the original paper (15 THINGS galaxies):
 
 ### Visual Results
 
-![Model Comparison](file:///Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/final_showdown.png)
+![Model Comparison](/Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/final_showdown.png)
 
-![SVT Parameter Distributions](file:///Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/svt_parameter_universality.png)
+![SVT Parameter Distributions](/Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/svt_parameter_universality.png)
 
 ---
 
@@ -116,15 +116,15 @@ Best-fit parameters from the original paper (15 THINGS galaxies):
 Based on the datasets analyzed, there are clear instances where the Log-SVT model provides a significantly better fit than the NFW (ΛCDM) model. In statistical modeling, a lower $\chi^2_\nu$ indicates a better fit. Below are the top 5 cases where Log-SVT wins by a significant margin.
 
 ````carousel
-![IC2574 Rotation Curve](file:///Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/IC2574_fit.png)
+![IC2574 Rotation Curve](/Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/IC2574_fit.png)
 <!-- slide -->
-![NGC3109 Rotation Curve](file:///Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/NGC3109_fit.png)
+![NGC3109 Rotation Curve](/Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/NGC3109_fit.png)
 <!-- slide -->
-![DDO154 Rotation Curve](file:///Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/DDO154_fit.png)
+![DDO154 Rotation Curve](/Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/DDO154_fit.png)
 <!-- slide -->
-![D631-7 Rotation Curve](file:///Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/D631-7_fit.png)
+![D631-7 Rotation Curve](/Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/D631-7_fit.png)
 <!-- slide -->
-![NGC0055 Rotation Curve](file:///Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/NGC0055_fit.png)
+![NGC0055 Rotation Curve](/Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/NGC0055_fit.png)
 ````
 
 ### Analysis of the Top Performers
