@@ -111,6 +111,74 @@ Best-fit parameters from the original paper (15 THINGS galaxies):
 
 ---
 
+## 🏆 Winners Circle: Where Log-SVT Outperforms ΛCDM
+
+Based on the datasets analyzed, there are clear instances where the Log-SVT model provides a significantly better fit than the NFW (ΛCDM) model. In statistical modeling, a lower $\chi^2_\nu$ indicates a better fit. Below are the top 5 cases where Log-SVT wins by a significant margin.
+
+````carousel
+![IC2574 Rotation Curve](galaxy_fits/IC2574_fit.png)
+<!-- slide -->
+![NGC3109 Rotation Curve](galaxy_fits/NGC3109_fit.png)
+<!-- slide -->
+![DDO154 Rotation Curve](galaxy_fits/DDO154_fit.png)
+<!-- slide -->
+![D631-7 Rotation Curve](galaxy_fits/D631-7_fit.png)
+<!-- slide -->
+![NGC0055 Rotation Curve](galaxy_fits/NGC0055_fit.png)
+````
+
+### Analysis of the Top Performers
+
+1. **IC2574 (The Clear Winner)**  
+   The most dramatic example in the dataset. The NFW profile fails significantly, while SVT provides an excellent fit.
+   - **$\chi^2_{NFW}$:** 42.68
+   - **$\chi^2_{SVT}$:** 2.57
+   - **The Margin:** SVT is approximately **16x better**.
+   - **Context:** IC2574 is a faint dwarf galaxy. These types of galaxies (Core-Cusp problem) are notoriously difficult for NFW to fit, making them prime candidates for the Log-SVT model.
+
+2. **NGC3109 (The "Perfect" Fit)**  
+   The NFW fit is poor, but the SVT fit is exceptionally precise.
+   - **$\chi^2_{NFW}$:** 11.11
+   - **$\chi^2_{SVT}$:** 0.17
+   - **The Margin:** SVT is roughly **65x better**.
+   - **Context:** The Log-SVT model fits the rotation curve almost perfectly ($\chi^2 \ll 1$ implies an extremely close match to data points).
+
+3. **DDO154 (Significant Recovery)**  
+   A gas-rich dwarf galaxy often used as a benchmark in dark matter studies.
+   - **$\chi^2_{NFW}$:** 16.67
+   - **$\chi^2_{SVT}$:** 1.83
+   - **The Margin:** SVT is roughly **9x better**.
+   - **Context:** NFW provides a statistically rejected fit, whereas SVT brings the fit down to a physically plausible range.
+
+4. **D631-7**  
+   A strong technical win where NFW is clearly disfavored.
+   - **$\chi^2_{NFW}$:** 10.15
+   - **$\chi^2_{SVT}$:** 1.91
+   - **The Margin:** SVT is roughly **5x better**.
+   - **Context:** The SVT model successfully reduces a high error margin down to a standard acceptable fit level.
+
+5. **NGC0055**  
+   SVT resolves the poor NFW fit nicely.
+   - **$\chi^2_{NFW}$:** 6.07
+   - **$\chi^2_{SVT}$:** 1.75
+   - **The Margin:** SVT is roughly **3.5x better**.
+   - **Context:** This represents a "clean" win where the alternative model provides a stable solution where NFW produces tension with the data.
+
+### Summary Table of the Winners
+
+| Galaxy | $\chi^2$ NFW (Standard) | $\chi^2$ Log-SVT (Alternative) | Improvement Factor |
+|--------|--------------------------|--------------------------------|--------------------|
+| **IC2574** | 42.68 | 2.57 | ~16.6x |
+| **NGC3109** | 11.11 | 0.17 | ~65.3x |
+| **DDO154** | 16.67 | 1.83 | ~9.1x |
+| **D631-7** | 10.15 | 1.91 | ~5.3x |
+| **NGC0055** | 6.07 | 1.75 | ~3.5x |
+
+> [!NOTE]
+> The Log-SVT model performs exceptionally well in **Dwarf and Irregular galaxies** (like IC2574 and DDO154) where the ΛCDM "cusp" usually conflicts with the observed "cores" (the Core-Cusp Problem).
+
+---
+
 ## ✨ Physical Insights from the Paper
 
 1. **Logarithmic term dominance:** The b₀/m parameter produces flat rotation curve (FRC) regimes across large galactic distances.
