@@ -105,9 +105,9 @@ Best-fit parameters from the original paper (15 THINGS galaxies):
 
 ### Visual Results
 
-![Model Comparison](/Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/final_showdown.png)
+![Model Comparison](file:///Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/final_showdown.png)
 
-![SVT Parameter Distributions](/Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/svt_parameter_universality.png)
+![SVT Parameter Distributions](file:///Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/svt_parameter_universality.png)
 
 ---
 
@@ -116,53 +116,68 @@ Best-fit parameters from the original paper (15 THINGS galaxies):
 Based on the datasets analyzed, there are clear instances where the Log-SVT model provides a significantly better fit than the NFW (ΛCDM) model. In statistical modeling, a lower $\chi^2_\nu$ indicates a better fit. Below are the top 5 cases where Log-SVT wins by a significant margin.
 
 ````carousel
-![IC2574 Rotation Curve](/Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/IC2574_fit.png)
+![IC2574 Rotation Curve](file:///Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/IC2574_fit.png)
 <!-- slide -->
-![NGC3109 Rotation Curve](/Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/NGC3109_fit.png)
+![NGC3109 Rotation Curve](file:///Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/NGC3109_fit.png)
 <!-- slide -->
-![DDO154 Rotation Curve](/Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/DDO154_fit.png)
+![DDO154 Rotation Curve](file:///Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/DDO154_fit.png)
 <!-- slide -->
-![D631-7 Rotation Curve](/Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/D631-7_fit.png)
+![D631-7 Rotation Curve](file:///Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/D631-7_fit.png)
 <!-- slide -->
-![NGC0055 Rotation Curve](/Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/NGC0055_fit.png)
+![NGC0055 Rotation Curve](file:///Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/NGC0055_fit.png)
 ````
 
 ### Analysis of the Top Performers
 
-1. **IC2574 (The Clear Winner)**  
-   The most dramatic example in the dataset. The NFW profile fails significantly, while SVT provides an excellent fit.
-   - **$\chi^2_{NFW}$:** 42.68
-   - **$\chi^2_{SVT}$:** 2.57
-   - **The Margin:** SVT is approximately **16x better**.
-   - **Context:** IC2574 is a faint dwarf galaxy. These types of galaxies (Core-Cusp problem) are notoriously difficult for NFW to fit, making them prime candidates for the Log-SVT model.
+#### 1. IC2574 (The Clear Winner)
 
-2. **NGC3109 (The "Perfect" Fit)**  
-   The NFW fit is poor, but the SVT fit is exceptionally precise.
-   - **$\chi^2_{NFW}$:** 11.11
-   - **$\chi^2_{SVT}$:** 0.17
-   - **The Margin:** SVT is roughly **65x better**.
-   - **Context:** The Log-SVT model fits the rotation curve almost perfectly ($\chi^2 \ll 1$ implies an extremely close match to data points).
+![IC2574 Rotation Curve](/Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/IC2574_fit.png)
 
-3. **DDO154 (Significant Recovery)**  
-   A gas-rich dwarf galaxy often used as a benchmark in dark matter studies.
-   - **$\chi^2_{NFW}$:** 16.67
-   - **$\chi^2_{SVT}$:** 1.83
-   - **The Margin:** SVT is roughly **9x better**.
-   - **Context:** NFW provides a statistically rejected fit, whereas SVT brings the fit down to a physically plausible range.
+The most dramatic example in the dataset. The NFW profile fails significantly, while SVT provides an excellent fit.
+- **$\chi^2_{NFW}$:** 42.68
+- **$\chi^2_{SVT}$:** 2.57
+- **The Margin:** SVT is approximately **16x better**.
+- **Context:** IC2574 is a faint dwarf galaxy. These types of galaxies (Core-Cusp problem) are notoriously difficult for NFW to fit, making them prime candidates for the Log-SVT model.
 
-4. **D631-7**  
-   A strong technical win where NFW is clearly disfavored.
-   - **$\chi^2_{NFW}$:** 10.15
-   - **$\chi^2_{SVT}$:** 1.91
-   - **The Margin:** SVT is roughly **5x better**.
-   - **Context:** The SVT model successfully reduces a high error margin down to a standard acceptable fit level.
+#### 2. NGC3109 (The "Perfect" Fit)
 
-5. **NGC0055**  
-   SVT resolves the poor NFW fit nicely.
-   - **$\chi^2_{NFW}$:** 6.07
-   - **$\chi^2_{SVT}$:** 1.75
-   - **The Margin:** SVT is roughly **3.5x better**.
-   - **Context:** This represents a "clean" win where the alternative model provides a stable solution where NFW produces tension with the data.
+![NGC3109 Rotation Curve](/Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/NGC3109_fit.png)
+
+The NFW fit is poor, but the SVT fit is exceptionally precise.
+- **$\chi^2_{NFW}$:** 11.11
+- **$\chi^2_{SVT}$:** 0.17
+- **The Margin:** SVT is roughly **65x better**.
+- **Context:** The Log-SVT model fits the rotation curve almost perfectly ($\chi^2 \ll 1$ implies an extremely close match to data points).
+
+#### 3. DDO154 (Significant Recovery)
+
+![DDO154 Rotation Curve](/Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/DDO154_fit.png)
+
+A gas-rich dwarf galaxy often used as a benchmark in dark matter studies.
+- **$\chi^2_{NFW}$:** 16.67
+- **$\chi^2_{SVT}$:** 1.83
+- **The Margin:** SVT is roughly **9x better**.
+- **Context:** NFW provides a statistically rejected fit, whereas SVT brings the fit down to a physically plausible range.
+
+#### 4. D631-7
+
+![D631-7 Rotation Curve](/Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/D631-7_fit.png)
+
+A strong technical win where NFW is clearly disfavored.
+- **$\chi^2_{NFW}$:** 10.15
+- **$\chi^2_{SVT}$:** 1.91
+- **The Margin:** SVT is roughly **5x better**.
+- **Context:** The SVT model successfully reduces a high error margin down to a standard acceptable fit level.
+
+#### 5. NGC0055
+
+![NGC0055 Rotation Curve](/Users/unknown2/.gemini/antigravity/brain/f42dc270-de66-4475-a91b-136e5f57f020/NGC0055_fit.png)
+
+SVT resolves the poor NFW fit nicely.
+- **$\chi^2_{NFW}$:** 6.07
+- **$\chi^2_{SVT}$:** 1.75
+- **The Margin:** SVT is roughly **3.5x better**.
+- **Context:** This represents a "clean" win where the alternative model provides a stable solution where NFW produces tension with the data.
 
 ### Summary Table of the Winners
 
